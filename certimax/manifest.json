@@ -1,0 +1,42 @@
+{
+    "name": "CertiMax",
+    "short_name": "certimax",
+    "description": "Creación y envio de reconocimientos automático. ",
+    "lang": "es-419",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "start_url": "https://certimax.ml/certimax/formulario.php",
+    "display": "standalone",
+    
+    
+    "icons": [ {
+    "src": "/certimax/recursos/logo 512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+    },
+    {
+    "src": "/certimax/recursos/logo 192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    },
+    {
+    "src": "/certimax/recursos/logo 144x144.png",
+    "sizes": "144x144",
+    "type": "image/png",
+    "purpose": "any maskable"
+    },
+    {
+    "src": "/certimax/recursos/logo 96x96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+    },
+    {
+    "src": "/certimax/recursos/logo 196x196.png",
+    "sizes": "196x196",
+    "type": "image/png",
+    "purpose": "any maskable"    
+    }],
+    "scope": "./"
+ }
+ 

@@ -1,0 +1,256 @@
+   /*modal-body*/
+    .modal-body{overflow-y:auto}
+    .modal-body{position:relative;-ms-flex:1 1 auto;flex:1 1 auto;padding:1rem}
+
+    /*modal-content*/
+    .modal-content{max-height:calc(100vh - 1rem)}
+    .modal-content{max-height:none}
+    .modal-content{position:relative;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;width:100%;pointer-events:auto;background-color:#fff;background-clip:padding-box;border:1px solid rgba(0,0,0,.2);border-radius:.3rem;outline:0}
+    .modal-content{max-height:calc(100vh - 3.5rem)}
+  /*/////////////////////////////////////////**/
+  
+    .label
+    {
+      color:white;
+    }
+    body
+    {
+       background-color:black;
+       background-position: center center;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+    #form
+      {
+          background-color: rgba(0, 0, 0, 0.5);
+      }
+    Input:Focus
+    {
+     Background-color: black;
+     color: #c2ac0e;
+    }
+    Textarea:Focus
+    {
+     Background-color: black;
+     color: #c2ac0e;
+    }
+    
+    #we:hover
+    {
+      background-color:black;
+      color:#c2ac0e;
+    }
+    #we
+    {
+      color:white;
+    }
+    #we:focus
+    {
+     background-color:black;
+     color: white;
+    }
+    
+    .navbar-menu
+    {
+      background-color:black;
+    }
+    .navbar-brand
+    {
+      background-color:black;
+    }
+    .navbar-burger
+    {
+     color:#c2ac0e;
+    }
+    #submit
+    {
+     background-color:black;
+     color:#c2ac0e;
+    }
+    #submit:hover:focus
+    {
+     background-color:#c2ac0e;
+     color:black;
+    }
+    .file-input:name
+    {
+     display:block;
+    }
+    #dev
+    {
+     
+     position:absolute;
+     float:left;
+     margin-left:150px;
+    }
+    #pet
+    {
+     position:absolute;
+     float:right;
+     margin-left:1450px;
+    }
+    #inf
+    {
+     position:absolute;
+     margin-left:735px;
+    }
+
+    /* FOOTER 
+    Crea tres columnas iguales que flotan una al lado de la otra */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      text-align:center;
+    }
+    
+    /* Borrar los flotadores después de las columnas */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Diseño responsivo: hace que las tres columnas se apilen una encima de otra en lugar de una al lado de la otra  */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+ /*Fin Footer*/
+ 
+   
+  
+    @media (min-width: 1281px)
+    {
+        #logosin
+        {
+            margin-left:85px;
+        }
+        #linf1/*nombres*/
+        {
+           position:absolute;  
+           margin-left:16%;
+        }
+        #linf2/*cargos*/
+        {
+             margin-left:50%;
+            position:absolute; 
+        }
+        #linf3/*sociedades*/
+        {
+             margin-left:73%;
+        }
+        #labelad
+        {
+           
+            display:none;
+        }
+        
+        #ladmin
+        {
+            margin-left:6%;
+        }
+        #fondo
+        {
+            margin-left:9%;
+        }
+      #form
+      {
+          padding:50px;
+          padding-left:5px;
+          margin-right:480px;
+          margin-left:480px;
+      }
+      #exampleModalCenter
+       {
+           margin-top:14%;
+           margin-left:35%;
+           height:300px;
+           width:500px;
+       }
+       #cargando
+       {
+         margin-left:87px;
+         height:300px;
+         width:300px;
+       }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px)/*tablets*/
+    {
+         #linf1,#linf2,#linf3
+        {
+          display:none;
+        }
+        
+      #form
+      {
+         padding:50px;
+         padding-left:40px;
+         margin-right:50px;
+         margin-left:50px; 
+         
+      }
+       #exampleModalCenter
+       {
+           margin-left:5%;
+           margin-top:50%;
+           width:680px;
+       }
+       #cargando
+       {
+         margin-left:280px;
+         height:100px;
+         width:100px;
+       }
+    }
+  
+       #forml{
+          margin-top:2%;
+          margin-bottom:3%;
+      }
+    @media (min-width: 320px) and (max-width: 480px)/*celulares*/
+    {
+       #linf1,#linf2,#linf3
+        {
+          display:none;
+        }
+        #fondo
+        {
+            margin-left:16%;
+        }
+      #exampleModalCenter
+       { 
+           /*border-radius:20px;*/ 
+           margin-top:80%;
+           margin-left:11%;
+           height:50px;
+           width:250px;
+       }  
+       #cargando
+       {
+         margin-left:90px;
+         height:50px;
+         width:50px;
+       }
+        
+      #ry
+      {
+        display:none; 
+      }
+      #form
+      {
+         padding:50px;
+         padding-left:40px;
+         margin-right:30px;
+         margin-left:30px; 
+      }
+      #we
+      {
+        color:#c2ac0e;
+      }
+    }
+  
+  
